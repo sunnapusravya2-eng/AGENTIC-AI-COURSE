@@ -1,0 +1,45 @@
+A Vector Database stores embeddings and allows similarity searches.
+
+Examples:
+
+FAISS
+ChromaDB
+Pinecone
+Weaviate
+Milvus
+Why do we need it?
+
+Suppose you have:
+
+100,000 documents
+
+You don't want to send all of them to an LLM.
+
+Instead:
+
+Documents
+ ↓
+Chunks
+ ↓
+Embeddings
+ ↓
+Vector Database
+
+User asks:
+
+What is the company's revenue?
+
+Question:
+
+Question
+ ↓
+Embedding
+ ↓
+Similarity Search
+ ↓
+Relevant chunks
+FAISS
+
+FAISS = Facebook AI Similarity Search
+
+FAISS is a library for efficient similarity search over vectors.
