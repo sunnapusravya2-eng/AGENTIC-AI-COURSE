@@ -1,0 +1,46 @@
+2. GENERATIVE AI
+
+Generative AI = Generative Artificial Intelligence
+
+Generative AI creates new content.
+
+It can generate:
+
+Text
+Images
+Audio
+Video
+Code
+Documents
+
+Traditional ML:
+
+"Is this email spam?"
+
+Generative AI:
+
+"Write an email to the customer."
+
+Examples
+
+ChatGPT → Text
+
+DALL-E → Images
+
+GitHub Copilot → Code
+
+Gemini → Text/code/images depending on model capabilities
+
+How Generative AI works
+
+A simplified architecture:
+
+User Prompt
+     ↓
+AI Model
+     ↓
+Understand Context
+     ↓
+Generate Tokens
+     ↓
+Final Response
