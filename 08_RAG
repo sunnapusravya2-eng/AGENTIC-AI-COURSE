@@ -1,0 +1,62 @@
+RAG = Retrieval-Augmented Generation
+
+RAG combines:
+
+Retrieval + Generation
+
+Instead of relying only on the LLM's training data:
+
+User Question
+ ↓
+Retrieve relevant information
+ ↓
+Give information to LLM
+ ↓
+Generate answer
+Example
+
+Suppose you upload your company HR policy.
+
+User:
+
+How many casual leaves can I take?
+
+RAG:
+
+Question
+ ↓
+Embedding
+ ↓
+Vector DB
+ ↓
+Find HR policy
+ ↓
+Relevant paragraph
+ ↓
+LLM
+ ↓
+Answer
+RAG pipeline
+Documents
+ ↓
+Document Loader
+ ↓
+Text Splitting
+ ↓
+Embeddings
+ ↓
+Vector Database
+
+Then:
+
+User Query
+ ↓
+Query Embedding
+ ↓
+Similarity Search
+ ↓
+Retrieved Documents
+ ↓
+LLM
+ ↓
+Answer
