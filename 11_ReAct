@@ -1,0 +1,33 @@
+ReAct = Reasoning + Acting
+
+ReAct is a pattern where an AI alternates between deciding what to do and performing actions.
+
+Conceptually:
+
+Think
+ ↓
+Act
+ ↓
+Observe
+ ↓
+Think
+ ↓
+Act
+ ↓
+Observe
+
+Example:
+
+User:
+
+What is the current temperature in Hyderabad?
+
+Agent:
+
+Goal → Find current temperature
+ ↓
+Action → Weather API
+ ↓
+Observation → 31°C
+ ↓
+Answer → Current temperature is 31°C
