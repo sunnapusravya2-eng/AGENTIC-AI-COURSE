@@ -1,0 +1,41 @@
+OBSERVABILITY
+
+Observability means understanding what your AI system is doing internally while it runs.
+
+Without observability:
+
+Agent failed ❌
+Why?
+Unknown.
+
+With observability:
+
+User Query
+ ↓
+Agent
+ ↓
+LLM call
+ ↓
+Tool call
+ ↓
+Database
+ ↓
+Error
+
+You can inspect:
+
+Prompts
+Responses
+Tool calls
+Latency
+Token usage
+Errors
+Retrieval results
+Agent state
+Why it matters
+
+Production agents can have complex execution paths.
+
+You need to know:
+
+"Why did my agent give this answer?"
