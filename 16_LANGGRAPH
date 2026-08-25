@@ -1,0 +1,33 @@
+LangGraph is designed for building stateful, controllable agent workflows, especially when an application needs multiple steps, loops, branching, persistence, or human approval.
+
+Think:
+LangChain = components
+
+LangGraph = workflow/state orchestration
+
+Example:
+
+START
+  ↓
+Agent
+  ↓
+Should I use a tool?
+ ↙        ↘
+Yes       No
+ ↓         ↓
+Tool      Answer
+ ↓
+Agent
+ ↓
+END
+Why LangGraph?
+
+Useful for:
+
+Agent loops
+State management
+Multi-agent workflows
+Human approval
+Retry mechanisms
+Conditional routing
+Long-running workflows
