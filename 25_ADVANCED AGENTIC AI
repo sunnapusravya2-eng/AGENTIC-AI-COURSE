@@ -1,0 +1,47 @@
+ADVANCED AGENTIC AI
+
+Once you understand everything above, move into advanced concepts.
+
+Important topics:
+
+Agentic workflows
+
+Agents dynamically decide what steps to execute.
+
+Hierarchical agents
+Manager Agent
+     ↓
+----------------
+↓       ↓      ↓
+Agent1 Agent2 Agent3
+Long-running agents
+
+Agents that maintain state over extended workflows.
+
+Adaptive planning
+
+Agent changes its plan based on observations.
+
+Self-correction
+Generate
+ ↓
+Evaluate
+ ↓
+Improve
+ ↓
+Generate again
+Agent-to-agent collaboration
+
+Multiple autonomous agents communicate and delegate tasks.
+
+Advanced memory
+
+Combining:
+
+Short-term memory
++
+Long-term memory
++
+Semantic memory
++
+Task memory
