@@ -1,0 +1,38 @@
+AI AGENTS
+
+An AI Agent is an AI system that can reason about a goal, decide what actions are needed, use tools, observe results and continue until the task is completed.
+
+Traditional chatbot:
+
+Question → Answer
+
+Agent:
+
+Goal
+ ↓
+Reason
+ ↓
+Plan
+ ↓
+Tool
+ ↓
+Observe
+ ↓
+Reason
+ ↓
+Tool
+ ↓
+Result
+Example
+
+User:
+
+Find the cheapest flight to Hyderabad and compare it with trains.
+
+Agent might:
+
+Search flights
+Search trains
+Compare prices
+Compare duration
+Recommend the best option
