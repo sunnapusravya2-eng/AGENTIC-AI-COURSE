@@ -1,0 +1,43 @@
+Evaluation means measuring whether your AI agent actually works correctly.
+
+Important metrics:
+
+Accuracy
+
+Did it produce the correct answer?
+
+Relevance
+
+Did it answer the user's question?
+
+Faithfulness
+
+Did the response stay grounded in retrieved information?
+
+Latency
+
+How long did it take?
+
+Cost
+
+How many tokens/API calls were used?
+
+Tool success rate
+
+Did the agent select and use the correct tools?
+
+RAG evaluation
+
+Common concepts include:
+
+Context Precision
+
+Was the retrieved information relevant?
+
+Context Recall
+
+Did retrieval find the important information?
+
+Faithfulness
+
+Is the answer supported by the retrieved context?
