@@ -1,0 +1,39 @@
+A2A
+
+A2A = Agent2Agent
+
+A2A refers to protocols designed for communication between AI agents.
+
+Instead of:
+
+Agent → Tool
+
+you can have:
+
+Agent A → Agent B
+
+Example:
+
+Research Agent
+      ↓
+Financial Agent
+      ↓
+Report Agent
+
+Each agent can specialize in a particular task.
+
+MCP vs A2A
+
+Very important interview question.
+
+MCP	A2A
+Agent ↔ Tools/Resources	Agent ↔ Agent
+Connects capabilities	Enables agent collaboration
+Tool/resource access	Agent communication
+Example: database tool	Example: research agent
+
+Simple memory trick:
+
+MCP = Agent uses tools
+
+A2A = Agents talk to agents
