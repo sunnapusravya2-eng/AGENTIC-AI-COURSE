@@ -1,0 +1,32 @@
+LangChain is a framework/ecosystem for building applications around LLMs.
+
+It provides components for:
+
+Models
+Prompts
+Tools
+Retrieval
+Agents
+Structured outputs
+Document processing
+Simple architecture
+User
+ ↓
+Prompt
+ ↓
+LLM
+ ↓
+Tool
+ ↓
+Response
+
+LangChain helps developers connect these components.
+
+Example
+from langchain_google_genai import ChatGoogleGenerativeAI
+
+llm = ChatGoogleGenerativeAI(
+    model="gemini-2.5-flash"
+)
+
+response = llm.invoke("What is RAG?")
