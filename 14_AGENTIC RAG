@@ -1,0 +1,48 @@
+AGENTIC RAG
+
+Traditional RAG:
+
+Question
+ ↓
+Retrieve
+ ↓
+Answer
+
+Agentic RAG:
+
+Question
+ ↓
+Agent
+ ↓
+Decide what information is required
+ ↓
+Retrieve
+ ↓
+Evaluate results
+ ↓
+Retrieve again if needed
+ ↓
+Reason
+ ↓
+Answer
+Example
+
+User:
+
+Compare the profitability of Company A and Company B.
+
+Agent might:
+
+Find Company A financial data
+ ↓
+Find Company B financial data
+ ↓
+Check whether data is complete
+ ↓
+Calculate margins
+ ↓
+Compare
+ ↓
+Generate conclusion
+
+This is much more flexible than basic RAG.
