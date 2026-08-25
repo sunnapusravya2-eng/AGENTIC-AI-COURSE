@@ -1,0 +1,48 @@
+DEPLOYMENT
+
+Deployment means making your AI application available for users.
+
+Typical architecture:
+
+Frontend
+   ↓
+API
+   ↓
+Agent
+   ↓
+LLM
+   ↓
+Vector DB
+   ↓
+External Tools
+Technologies you should know
+FastAPI
+
+Python framework for building APIs.
+
+Streamlit
+
+Useful for quickly creating AI application interfaces.
+
+Docker
+
+Docker = containerization platform
+
+Packages your application and dependencies together.
+
+Application
++
+Python
++
+Libraries
++
+Dependencies
+=
+Docker Container
+Cloud
+
+Common platforms:
+
+AWS
+Azure
+Google Cloud
