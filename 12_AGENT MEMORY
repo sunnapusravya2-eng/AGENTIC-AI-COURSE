@@ -1,0 +1,33 @@
+Agent memory allows an agent to retain useful information across interactions or within a task.
+
+Two major concepts:
+
+Short-term memory
+
+Current conversation/task.
+
+User: My name is Sravya.
+Agent: Nice to meet you.
+User: What is my name?
+Agent: Sravya.
+Long-term memory
+
+Information retained for future interactions.
+
+Example:
+
+User preference:
+Python
+Generative AI
+RAG
+
+The system can retrieve relevant memories later.
+
+Memory architecture
+Conversation
+ ↓
+Memory
+ ↓
+Retrieve relevant information
+ ↓
+Agent
