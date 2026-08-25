@@ -1,0 +1,27 @@
+HITL = Human-In-The-Loop
+
+Sometimes an AI agent should not automatically perform an important action.
+
+Example:
+
+Agent
+ ↓
+Generate refund
+ ↓
+Human approval
+ ↓
+Approve?
+ ↓
+Execute refund
+Why?
+
+For:
+
+Financial transactions
+Medical decisions
+Legal actions
+Sending sensitive emails
+Deleting data
+Production changes
+
+HITL adds safety.
