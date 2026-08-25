@@ -1,0 +1,119 @@
+ REAL-WORLD PROJECTS
+
+This is where you become job-ready.
+
+You should build projects that demonstrate the complete stack.
+
+Project 1 — RAG PDF Chatbot
+Technologies
+Python
+LangChain
+Gemini
+FAISS/ChromaDB
+Streamlit
+
+Architecture:
+
+PDF
+ ↓
+Loader
+ ↓
+Chunking
+ ↓
+Embeddings
+ ↓
+Vector DB
+ ↓
+Retriever
+ ↓
+LLM
+ ↓
+Answer
+Project 2 — Financial Document Intelligence Agent
+
+This is especially useful for your portfolio.
+
+Your system can process:
+
+Profit & Loss
+Balance Sheet
+Invoices
+
+Architecture:
+
+                 User
+                   ↓
+             Financial Agent
+                   ↓
+          Document Classification
+                   ↓
+          ---------------------
+          ↓         ↓          ↓
+        P&L    Balance Sheet  Invoice
+          ↓         ↓          ↓
+        Extract   Extract     Extract
+          \         |          /
+           \        |         /
+             Financial Analysis
+                    ↓
+              Risk Analysis
+                    ↓
+                 Report
+Project 3 — Multi-Agent Research Assistant
+
+Agents:
+
+Supervisor Agent
+       ↓
+Research Agent
+       ↓
+Search Agent
+       ↓
+Summarization Agent
+       ↓
+Writer Agent
+
+Use:
+
+LangGraph
+LLM
+Tools
+RAG
+Web search
+Memory
+Project 4 — AI Customer Support Agent
+
+User:
+
+My order hasn't arrived.
+
+Agent:
+
+Understand request
+ ↓
+Search order database
+ ↓
+Check shipment
+ ↓
+Determine status
+ ↓
+Respond
+
+If refund required:
+
+Agent
+ ↓
+Refund Tool
+ ↓
+Human Approval
+ ↓
+Refund
+
+This demonstrates:
+
+Agents
+Tools
+HITL
+Memory
+Security
+APIs
