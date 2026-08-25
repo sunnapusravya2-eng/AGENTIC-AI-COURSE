@@ -1,0 +1,44 @@
+PRODUCTION AI AGENTS
+
+A prototype:
+
+User → Agent → Answer
+
+Production system requires much more:
+
+User
+ ↓
+Authentication
+ ↓
+API
+ ↓
+Agent
+ ↓
+LLM
+ ↓
+Tools
+ ↓
+Database
+ ↓
+Monitoring
+ ↓
+Evaluation
+ ↓
+Logging
+ ↓
+Security
+
+Important production considerations:
+
+Reliability
+Scalability
+Security
+Cost
+Latency
+Monitoring
+Error handling
+Rate limits
+Authentication
+Authorization
+Evaluation
+Versioning
