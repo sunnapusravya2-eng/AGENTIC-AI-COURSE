@@ -1,0 +1,32 @@
+Tool Calling allows an LLM/agent to invoke external functions or APIs.
+
+Example tools:
+
+search_web()
+calculate()
+get_weather()
+query_database()
+send_email()
+
+User:
+
+What is 25 × 40?
+
+Agent can call:
+
+calculator(25 * 40)
+
+Result:
+
+1000
+Why tools are important
+
+LLMs are not inherently connected to your:
+
+Database
+APIs
+Files
+Applications
+Real-time systems
+
+Tools give them access.
