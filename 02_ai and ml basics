@@ -1,0 +1,105 @@
+AI & ML FUNDAMENTALS
+AI — Artificial Intelligence
+
+AI = Artificial Intelligence
+
+AI is the broader field of making computers perform tasks that normally require human intelligence.
+
+Examples:
+
+Understanding language
+Recognizing images
+Making predictions
+Solving problems
+Making decisions
+Example
+
+Google Maps predicts:
+
+"You may reach your destination in 35 minutes."
+
+That's AI using data, algorithms and prediction.
+
+ML — Machine Learning
+
+ML = Machine Learning
+
+ML is a subset of AI where computers learn patterns from data instead of being explicitly programmed for every situation.
+
+Traditional programming:
+
+Rules + Data → Output
+
+Machine Learning:
+
+Data + Output → Model
+
+Then:
+
+New Data + Model → Prediction
+Example: Spam detection
+
+Training data:
+
+Email 1 → Spam
+Email 2 → Not Spam
+Email 3 → Spam
+Email 4 → Not Spam
+
+The ML model learns patterns.
+
+New email:
+
+"Congratulations! You won ₹10 crore."
+
+Model:
+
+Spam: 98%
+
+Important ML Types
+Supervised Learning
+
+Training data contains labels.
+
+Input → Correct Output
+
+Examples:
+
+House price prediction
+Spam detection
+Disease classification
+Unsupervised Learning
+
+There are no predefined labels.
+
+The model finds patterns itself.
+
+Example:
+
+Customer segmentation:
+
+Customer A → Group 1
+Customer B → Group 1
+Customer C → Group 2
+Reinforcement Learning
+
+RL = Reinforcement Learning
+
+An agent learns by interacting with an environment.
+
+Agent
+ ↓
+Action
+ ↓
+Environment
+ ↓
+Reward/Penalty
+ ↓
+Learning
+
+Example:
+
+A game-playing AI receives:
+
+Win → +10
+Lose → -10
