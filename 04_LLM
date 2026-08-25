@@ -1,0 +1,57 @@
+LLM = Large Language Model
+
+An LLM is a neural network trained on huge amounts of text to understand and generate language.
+
+Examples include:
+
+GPT models
+Gemini
+Claude
+Llama
+What is a Token?
+
+LLMs don't directly process sentences like humans.
+
+They process tokens.
+
+Example:
+
+"Artificial Intelligence"
+
+might be broken into tokens approximately like:
+
+Artificial
+Intelligence
+
+The exact tokenization depends on the model.
+
+LLM architecture
+
+Most modern LLMs are based on:
+
+Transformer architecture
+
+Basic flow:
+
+Text
+ ↓
+Tokenization
+ ↓
+Embeddings
+ ↓
+Transformer
+ ↓
+Attention
+ ↓
+Output probabilities
+ ↓
+Next token
+Example
+
+Prompt:
+
+What is Python?
+
+The LLM predicts the next tokens:
+
+Python → is → a → programming → language...
