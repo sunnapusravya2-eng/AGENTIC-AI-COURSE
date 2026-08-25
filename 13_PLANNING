@@ -1,0 +1,23 @@
+Planning means breaking a complex goal into smaller tasks.
+
+User:
+
+Analyze my financial documents and prepare a business report.
+
+Agent plan:
+
+1. Read documents
+2. Identify document types
+3. Extract data
+4. Calculate financial ratios
+5. Identify risks
+6. Generate report
+Planning strategies
+Sequential planning
+A → B → C → D
+Parallel planning
+        → A
+Goal →  → B
+        → C
+
+Then combine results.
