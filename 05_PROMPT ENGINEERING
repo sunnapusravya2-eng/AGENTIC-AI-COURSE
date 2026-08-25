@@ -1,0 +1,52 @@
+PROMPT ENGINEERING
+
+Prompt Engineering means designing effective instructions for an AI model.
+
+Bad prompt
+
+Tell me about AI.
+
+Better prompt
+
+Explain Artificial Intelligence to a beginner using a simple example and avoid technical terminology.
+
+Common prompting techniques
+Zero-shot prompting
+
+No example is provided.
+
+Classify this review as positive or negative.
+
+"I love this product."
+Few-shot prompting
+
+Provide examples.
+
+Good → Positive
+Bad → Negative
+Excellent → Positive
+
+"Terrible" → ?
+
+Answer:
+
+Negative
+
+Chain-of-Thought
+
+Asking the model to reason through a problem.
+
+In production systems, it's generally better to request a concise explanation or structured reasoning rather than exposing private internal reasoning.
+
+Role prompting
+You are a financial analyst.
+Analyze this company's financial statement.
+Structured prompting
+Return JSON:
+
+{
+  "company": "",
+  "revenue": "",
+  "profit": "",
+  "risk": ""
+}
